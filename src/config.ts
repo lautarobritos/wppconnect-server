@@ -1,12 +1,12 @@
 import { ServerOptions } from './types/ServerOptions';
 
 export default {
-  secretKey: 'THISISMYSECURETOKEN',
+  secretKey: 'CLAVE-FINAL-BARBERIA',
   host: 'http://localhost',
   port: '21465',
   deviceName: 'WppConnect',
   poweredBy: 'WPPConnect-Server',
-  startAllSession: true,
+  startAllSession: false,
   tokenStoreType: 'file',
   maxListeners: 15,
   customUserDataDir: './userDataDir/',
@@ -44,6 +44,8 @@ export default {
     logger: ['console', 'file'],
   },
   createOptions: {
+    autoClose: 0,
+    waitForLogin: true,
     browserArgs: [
       '--disable-web-security',
       '--no-sandbox',
