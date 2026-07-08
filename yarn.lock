@@ -5726,10 +5726,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@wppconnect/wa-js@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "@wppconnect/wa-js@npm:4.2.0"
-  checksum: 10c0/41dd2a6f46a37c02f3e812ccf28f46b77ceaf923620d539f2c7629a7478211f4600557e9d40b6a82f0498e87ebdae756bb86b67554a40c483f8e5c3e11d3a3f8
+"@wppconnect/wa-js@npm:4.3.1":
+  version: 4.3.1
+  resolution: "@wppconnect/wa-js@npm:4.3.1"
+  checksum: 10c0/c412e3daf1ac1c778a49864224981b29abe34be86661897abc2eba1180ad1d8120523e32b86e59ca5399906dae45b66441f0b0517486da69fc5d28065b2d4f41
   languageName: node
   linkType: hard
 
